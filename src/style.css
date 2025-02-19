@@ -1,0 +1,17 @@
+/* CONTENT */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px blue solid;
+    margin-top: 50px;
+
+    /* referencia ao elemento pai */
+    & .item {
+        display: flex;
+        justify-content: center;
+        color: grey;
+    }
+}
