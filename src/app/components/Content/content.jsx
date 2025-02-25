@@ -1,6 +1,7 @@
 import React from "react";
 import card from '../../endpoints/card' //suba dois niveis
 import Card from "../Card/card";
+import './content.css'
 
 export default function Content() {
     //funcao de objeto que mapeia um determinado endpoint

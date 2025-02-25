@@ -1,13 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar/navbar";
 import Footer from "./components/Footer/footer";
-import Content from "../app/components/Content/content";
 import Banner from "./components/Banner/banner";
+import Menu from "./components/Menu/menu";
 
 export default function Site() {
     return (
         <>
-                <Navbar />
+                <Menu />
             <section className="container-fluid">
                 <Banner />
                 <Footer />

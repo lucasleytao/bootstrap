@@ -1,0 +1,26 @@
+/* CONTENT */
+
+.banner {
+    background-color: antiquewhite;
+    height: 500px;
+    border: 1px grey solid;
+    text-align: center;
+    align-content: center;
+    color: grey;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    /* padding: 1rem; */
+    border: 1px blue solid;
+    margin-top: 50px;
+
+    /* referencia ao elemento pai */
+    & .item {
+        display: flex;
+        justify-content: center;
+        color: grey;
+    }
+}
