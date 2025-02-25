@@ -7,20 +7,20 @@ const card = [
         bio:'Frontend Developer'
         
     },
-    {
-        id:2,
-        name:'Breno Ramon',
-        username:'brenoramon',
-        bio:'Backend Developer'
+    // {
+    //     id:2,
+    //     name:'Breno Ramon',
+    //     username:'brenoramon',
+    //     bio:'Backend Developer'
         
-    },
-    {
-        id:3,
-        name:'Bruna Cardoso',
-        username:'brunacardoso',
-        bio:'Backend Developer'
+    // },
+    // {
+    //     id:3,
+    //     name:'Bruna Cardoso',
+    //     username:'brunacardoso',
+    //     bio:'Backend Developer'
         
-    },
+    // },
 ]
 
 export default card
