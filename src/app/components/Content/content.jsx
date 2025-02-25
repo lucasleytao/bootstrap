@@ -11,7 +11,7 @@ export default function Content() {
     return (
         <div>
             {/* <Props msg='Mensagem de PROPS' bg={{ background: '#add8e6' }} /> */}
-            {card.map(createCard)}
+            {card.map(createCard)}  
             {/* <Card name={perfil[0].name} bio={perfil[0].bio} />
                 <Card name={perfil[1].name} bio={perfil[1].bio} /> */}
         </div>

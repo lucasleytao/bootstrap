@@ -54,6 +54,10 @@ export default function Footer() {
                         </div>
                     </form>
                 </div>
+                <div className="media d-flex justify-content-end">
+                    <i class="icon-ld fa-brands fa-linkedin fa-2x"></i>
+                    <i class="icon-ig fa-brands fa-instagram fa-2x"></i>
+                </div>
             </div>
 
             <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
